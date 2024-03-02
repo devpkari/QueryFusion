@@ -1,0 +1,28 @@
+Release Notes 1.0 - Beta 1 to Beta 1.2
+
+Beta 1:
+
+Features Added:
+Support for arithmetic operators, bitwise operators, and comparison operators.
+More Information:
+This release introduces support for a range of operators, including arithmetic, bitwise, and comparison operators, enhancing the capabilities of QueryFusion for Python expression conversion to MongoDB and SQL queries.
+
+Beta 1.1:
+
+Features Added:
+Support for compound operators and logical operators.
+More Information:
+With this update, QueryFusion now includes support for compound operators and logical operators, further expanding its functionality for seamless conversion of Python expressions to MongoDB and SQL queries.
+
+Beta 1.2:
+
+Status: In Progress
+New Features:
+Requirement 1: Support for joins.
+QueryFusion now endeavors to support joins, enabling developers to handle more complex data relationships within MongoDB collections or SQL tables.
+The approach involves providing a dictionary mapping variable names in expressions to corresponding MongoDB collections or fields. While full-fledged joins are not directly supported in MongoDB, QueryFusion assumes denormalized data or a structure where fields from related documents can be directly referenced.
+Requirement 2: Declarative schema generation syntax.
+Introducing the MongoSchema class, developers can now define expected fields and their types for validation purposes.
+The add_field method facilitates adding fields to the schema, and the validate method ensures adherence to the schema, enhancing data integrity and consistency.
+
+Note: Beta 1.2 is currently in progress, with the aforementioned features being developed to enhance QueryFusion's functionality further. Stay tuned for updates and improvements in upcoming releases.
